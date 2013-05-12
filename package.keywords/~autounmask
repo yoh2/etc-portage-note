@@ -1,0 +1,2 @@
+#required by =sys-power/cpufreqd-2.4.2-r2 (argument)
+=sys-power/cpufreqd-2.4.2-r2 ~amd64

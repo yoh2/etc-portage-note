@@ -1,0 +1,4 @@
+CFLAGS="-O2"
+CXXFLAGS="-O2"
+FEATURES="${FEATURES} -distcc"
+MAKEOPTS="-j5"

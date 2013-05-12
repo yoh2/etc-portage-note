@@ -1,0 +1,6 @@
+cross-powerpc64-unknown-linux-gnu/binutils objc objc++ -gtk mudflap -selinux
+cross-powerpc64-unknown-linux-gnu/linux-headers objc objc++ -gtk mudflap -selinux
+cross-powerpc64-unknown-linux-gnu/glibc objc objc++ -gtk mudflap -selinux
+cross-powerpc64-unknown-linux-gnu/gcc objc objc++ -gtk mudflap -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc
+#required by dev-db/virtuoso-server-6.1.6, required by dev-libs/soprano-2.7.6[virtuoso], required by kde-base/nepomuk-4.8.5, required by kde-base/kdelibs-4.8.5[semantic-desktop], required by kde-base/ksnapshot-4.8.5[handbook], required by kde-base/kdegraphics-meta-4.8.5, required by kde-base/kde-meta-4.8.5, required by @selected, required by @world (argument)
+>=sys-libs/zlib-1.2.7 minizip

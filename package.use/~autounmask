@@ -1,0 +1,12 @@
+#required by app-doc/doxygen-1.7.6.1[latex], required by dev-libs/libdbusmenu-qt-0.9.2[doc], required by kde-base/kdelibs-4.8.5, required by kde-base/kmousetool-4.8.5[handbook], required by kde-base/kdeaccessibility-meta-4.8.5, required by kde-base/kde-meta-4.8.5[accessibility], required by @selected, required by @world (argument)
+=app-text/texlive-2011 extra
+#required by dev-libs/libnl-3.2.13[doc], required by net-wireless/hostapd-1.0-r4, required by @selected, required by @world (argument)
+=app-doc/doxygen-1.7.6.1 latex
+#required by sys-power/upower-0.9.18, required by kde-base/kdelibs-4.8.5[upower], required by kde-misc/polkit-kde-kcmodules-0.98_pre20120917
+=sys-fs/udev-171-r8 gudev hwdb
+#required by media-sound/pulseaudio-2.1-r1[udev], required by media-sound/fluidsynth-1.1.6[pulseaudio], required by media-plugins/audacious-plugins-3.2.2-r1[fluidsynth], required by @selected, required by @world (argument)
+=virtual/udev-171 gudev hwdb
+#required by virtual/udev-171, required by www-client/chromium-23.0.1271.95, required by @selected, required by @world (argument)
+=sys-fs/udev-171-r9 gudev hwdb
+#required by kde-base/pykde4-4.9.5, required by kde-base/system-config-printer-kde-4.9.5, required by kde-base/kdeadmin-meta-4.9.5[cups], required by kde-base/kde-meta-4.9.5, required by @selected, required by @world (argument)
+>=dev-python/PyQt4-4.9.6-r2 script

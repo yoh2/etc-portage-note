@@ -1,0 +1,4 @@
+cross-mingw32/binutils objc objc++ -gtk mudflap -selinux
+cross-mingw32/gcc objc objc++ -gtk mudflap -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -fortran nocxx -openmp
+cross-mingw32/w32api objc objc++ -gtk mudflap -selinux
+cross-mingw32/mingw-runtime objc objc++ -gtk mudflap -selinux

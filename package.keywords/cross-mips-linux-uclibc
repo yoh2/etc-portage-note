@@ -1,0 +1,6 @@
+cross-mips-linux-uclibc/binutils mips ~mips -amd64 -~amd64
+cross-mips-linux-uclibc/gcc mips ~mips -amd64 -~amd64
+cross-mips-linux-uclibc/linux-headers mips ~mips -amd64 -~amd64
+cross-mips-linux-uclibc/uclibc mips ~mips -amd64 -~amd64
+cross-mips-linux-uclibc/gdb mips ~mips -amd64 -~amd64
+cross-mips-linux-uclibc/insight mips ~mips -amd64 -~amd64
