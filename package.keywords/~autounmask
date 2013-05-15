@@ -1,2 +1,11 @@
 #required by =sys-power/cpufreqd-2.4.2-r2 (argument)
 =sys-power/cpufreqd-2.4.2-r2 ~amd64
+# required by @selected
+# required by @world (argument)
+=net-misc/mikutter-0.2.1.1141 ~amd64
+# required by @selected
+# required by @world (argument)
+=net-im/skype-4.1.0.20 ~amd64
+# required by @selected
+# required by @world (argument)
+=sys-devel/gcc-4.7.2-r1 ~amd64
