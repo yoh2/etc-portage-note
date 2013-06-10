@@ -10,3 +10,13 @@
 =sys-fs/udev-171-r9 gudev hwdb
 #required by kde-base/pykde4-4.9.5, required by kde-base/system-config-printer-kde-4.9.5, required by kde-base/kdeadmin-meta-4.9.5[cups], required by kde-base/kde-meta-4.9.5, required by @selected, required by @world (argument)
 >=dev-python/PyQt4-4.9.6-r2 script
+# required by www-client/chromium-27.0.1453.110
+# required by @selected
+# required by @world (argument)
+=media-libs/mesa-9.1.2-r1 gles2
+# required by dev-libs/icu-51.1[doc]
+# required by media-libs/libvisio-0.0.28
+# required by app-office/libreoffice-bin-3.6.6.2
+# required by @selected
+# required by @world (argument)
+=app-doc/doxygen-1.8.3.1 dot
