@@ -41,7 +41,7 @@ media-video/mplayer			-bindist
 media-video/vlc				w32codecs
 
 net-analyzer/nmap			python
-net-analyzer/wireshark			adns ares gprypt geoip portaudio python smi
+net-analyzer/wireshark			adns ares gprypt geoip portaudio python smi -gtk
 net-dns/avahi				mdnsresponder-compat
 net-misc/wicd				-X
 net-print/gutenprint			cups foomaticdb gimp gtk ppds readline
