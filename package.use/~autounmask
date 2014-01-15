@@ -55,3 +55,10 @@
 # required by dev-ruby/rake-0.9.6[ruby_targets_ruby19]
 # required by dev-ruby/json-1.8.0[-test,doc,ruby_targets_ruby18]
 =dev-ruby/rubygems-2.0.3 ruby_targets_ruby20
+# required by net-libs/webkit-gtk-2.0.4
+# required by gnome-extra/sushi-3.8.1
+# required by gnome-base/nautilus-3.8.2[previewer]
+# required by x11-terms/gnome-terminal-3.8.4[nautilus]
+# required by @selected
+# required by @world (argument)
+=media-libs/harfbuzz-0.9.23 icu
