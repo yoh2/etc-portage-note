@@ -1,0 +1,2 @@
+sys-devel/rust		system-llvm
+sys-devel/llvm		multitarget

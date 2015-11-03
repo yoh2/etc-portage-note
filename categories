@@ -4,3 +4,4 @@ cross-mingw32
 cross-arm-linux-uclibc
 cross-arm-linux-newlib
 cross-i686-pc-linux-gnu
+cross-armv6j-hardfloat-linux-gnueabi

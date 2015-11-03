@@ -2,12 +2,6 @@
 =app-text/texlive-2011 extra
 #required by dev-libs/libnl-3.2.13[doc], required by net-wireless/hostapd-1.0-r4, required by @selected, required by @world (argument)
 =app-doc/doxygen-1.7.6.1 latex
-#required by sys-power/upower-0.9.18, required by kde-base/kdelibs-4.8.5[upower], required by kde-misc/polkit-kde-kcmodules-0.98_pre20120917
-=sys-fs/udev-171-r8 gudev hwdb
-#required by media-sound/pulseaudio-2.1-r1[udev], required by media-sound/fluidsynth-1.1.6[pulseaudio], required by media-plugins/audacious-plugins-3.2.2-r1[fluidsynth], required by @selected, required by @world (argument)
-=virtual/udev-171 gudev hwdb
-#required by virtual/udev-171, required by www-client/chromium-23.0.1271.95, required by @selected, required by @world (argument)
-=sys-fs/udev-171-r9 gudev hwdb
 #required by kde-base/pykde4-4.9.5, required by kde-base/system-config-printer-kde-4.9.5, required by kde-base/kdeadmin-meta-4.9.5[cups], required by kde-base/kde-meta-4.9.5, required by @selected, required by @world (argument)
 >=dev-python/PyQt4-4.9.6-r2 script
 # required by www-client/chromium-27.0.1453.110
@@ -62,3 +56,34 @@
 # required by @selected
 # required by @world (argument)
 =media-libs/harfbuzz-0.9.23 icu
+# required by virtual/rubygems-9[ruby_targets_ruby20]
+# required by dev-ruby/racc-1.4.9
+# required by dev-ruby/rdoc-4.0.1-r1[ruby_targets_ruby19]
+# required by dev-lang/ruby-2.0.0_p598[rdoc]
+# required by dev-ruby/json-1.8.0[ruby_targets_ruby20]
+# required by net-misc/mikutter-0.2.1.1141
+# required by @selected
+# required by @world (argument)
+=dev-ruby/rubygems-2.2.2 ruby_targets_ruby20
+# required by net-libs/webkit-gtk-2.4.8
+# required by net-libs/libproxy-0.4.11-r2[webkit]
+# required by net-libs/glib-networking-2.40.1-r1[libproxy]
+# required by net-libs/libsoup-2.46.0-r1
+# required by gnome-base/gvfs-1.20.3[http]
+# required by gvfs (argument)
+=media-libs/harfbuzz-0.9.35 icu
+# required by dev-ruby/rake-0.9.6[-test,ruby_targets_ruby20]
+# required by dev-ruby/racc-1.4.9[-test,ruby_targets_ruby20]
+# required by dev-ruby/rdoc-4.0.1-r1[ruby_targets_ruby19]
+# required by dev-lang/ruby-2.0.0_p598[rdoc]
+# required by dev-ruby/json-1.8.0[ruby_targets_ruby20]
+# required by net-misc/mikutter-0.2.1.1141
+# required by @selected
+# required by @world (argument)
+=virtual/rubygems-9 ruby_targets_ruby20
+# required by sys-devel/clang-3.5.1-r100
+# required by clang (argument)
+=sys-devel/llvm-3.5.1 clang
+# required by kde-base/nepomuk-4.14.3
+# required by kde-base/nepomuk (argument)
+>=kde-base/kdelibs-4.14.3-r1 nepomuk

@@ -48,13 +48,11 @@ sci-misc/boinc			~amd64
 
 sys-apps/microcode-data		~amd64
 sys-boot/grub			~amd64
-sys-devel/clang			~amd64
 sys-devel/binutils-apple	**
 =sys-devel/gcc-4.6.3		~amd64
 =sys-devel/gcc-4.7.2		~amd64
 sys-devel/gcc-apple		**
-sys-devel/llvm			~amd64
-sys-devel/llvm-gcc		~amd64
+sys-firmware/iwl6005-ucode	~amd64
 
 x11-drivers/xf86-video-intel	~amd64
 x11-libs/libdrm			~amd64

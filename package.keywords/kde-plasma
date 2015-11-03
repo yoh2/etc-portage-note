@@ -1,0 +1,33 @@
+media-libs/phonon		~amd64
+media-libs/phonon-gstreamer	~amd64
+media-libs/phonon-vlc		~amd64
+dev-libs/libdbusmenu-qt		~amd64
+dev-qt/*:5			~amd64
+dev-qt/qtxmlpatterns		~amd64
+kde-frameworks/*		~amd64
+kde-plasma/*			~amd64
+sys-auth/polkit-qt		~amd64
+x11-misc/xdg-utils		~amd64
+x11-misc/sddm			~amd64
+app-text/poppler		~amd64
+=kde-apps/konsole-15.08*	**
+=kde-misc/yakuake-9999:5	**
+=kde-apps/konqueror-15.08*	**
+=kde-apps/dolphin-15.08*	**
+=kde-apps/kio-extras-15.08*	**
+=kde-apps/baloo-widgets-15.08*	**
+=kde-apps/kate-15.08*		**
+=dev-libs/libgit2-0.23.0	~amd64  # kate
+kde-apps/okular			**
+kde-apps/libkexiv2		**
+kde-apps/kcalc			**
+
+dev-libs/libappindicator	~amd64
+dev-libs/libindicator		~amd64
+dev-libs/libdbusmenu		~amd64
+dev-libs/libinput		~amd64
+
+app-eselect/eselect-opengl	~amd64
+x11-proto/glproto		~amd64
+
+x11-themes/gnome-breeze		**

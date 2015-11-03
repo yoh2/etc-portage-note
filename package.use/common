@@ -6,7 +6,7 @@ app-benchmarks/sysbench			aio
 app-crypt/pyrit				opencl
 app-editors/emacs			gzip-el xft
 app-emulation/vmware-tools		vmware_guest_freebsd vmware_guest_linux vmware_guest_netware vmware_guest_solaris vmware_guest_winPre2k vmware_guest_windows
-app-i18n/uim				gtk3 qt4 libnotify libedit xft skk anthy prime
+app-i18n/uim				gtk3 libnotify libedit xft skk anthy prime
 app-misc/screen				nethack
 app-portage/layman			bazaar mercurial
 app-shells/bash				plugins
@@ -17,7 +17,7 @@ dev-db/sqlite				extensions
 dev-java/swt				-xulrunner
 dev-lang/python				sqlite
 dev-libs/libxml2			icu python
-dev-libs/openssl			rfc3779
+dev-libs/openssl			rfc3779 -kerberos
 dev-python/PyQt4			declarative
 dev-python/jinja			-doc
 dev-ruby/hoe				-doc
@@ -41,8 +41,9 @@ media-video/mplayer			-bindist
 media-video/vlc				w32codecs
 
 net-analyzer/nmap			python
-net-analyzer/wireshark			adns ares gprypt geoip portaudio python smi -gtk -gtk2 -gtk3 qt4
+net-analyzer/wireshark			adns ares gprypt geoip portaudio python smi -gtk -gtk2 gtk3 -qt4
 net-dns/avahi				mdnsresponder-compat
+net-misc/networkmanager			-gnutls
 net-misc/wicd				-X
 net-print/gutenprint			cups foomaticdb gimp gtk ppds readline
 #net-wireless/bluez			old-daemons
@@ -67,8 +68,6 @@ sys-devel/llvm-gcc			objc objc++
 sys-fs/udev				extras
 
 x11-libs/cairo				-qt4
-# -gstreamer: for icu.
-# move x11-libs/qt-webkit dev-qt/qtwebkit
 dev-qt/qtwebkit			-gstreamer
 
 www-client/chromium	-bindist
@@ -89,8 +88,6 @@ www-client/chromium	-bindist
 >=dev-ruby/hoe-2.13.0 ruby_targets_ruby19
 #required by dev-libs/grantlee-0.1.9[doc], required by kde-base/kaddressbook-4.8.1, required by kde-base/kdepim-meta-4.8.1, required by kde-base/kde-meta-4.8.1[semantic-desktop], required by @selected, required by @world (argument)
 =app-doc/doxygen-1.7.6.1 dot
-#required by sys-power/upower-0.9.16, required by kde-base/kdelibs-4.8.3[upower], required by kde-base/bomber-4.8.3, required by kde-base/kdegames-meta-4.8.3, required by kde-base/kde-meta-4.8.3, required by @selected, required by @world (argument)
-=sys-fs/udev-171-r6 gudev
 #required by dev-db/virtuoso-server-6.1.4-r1, required by dev-libs/soprano-2.7.4[virtuoso], required by kde-base/nepomuk-4.8.3, required by kde-base/kdebase-runtime-meta-4.8.3[semantic-desktop], required by kde-base/kdebase-startkde-4.8.3, required by kde-base/kdebase-meta-4.8.3, required by kde-base/kde-meta-4.8.3, required by @selected, required by @world (argument)
 =sys-libs/zlib-1.2.5.1-r2 minizip
 #required by sys-fs/udisks-1.0.4-r2, required by kde-base/kdelibs-4.8.3[udisks], required by app-office/libreoffice-bin-3.5.4.2-r1[kde], required by app-office/libreoffice-l10n-3.5.4

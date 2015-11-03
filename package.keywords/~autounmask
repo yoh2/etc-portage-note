@@ -20,3 +20,77 @@
 =dev-haskell/cabal-install-1.18.0.2 ~amd64
 # required by systemd-ui (argument)
 =sys-apps/systemd-ui-2 ~amd64
+# required by dev-java/icedtea-7.2.5.3[pulseaudio]
+# required by dev-java/icedtea-web-1.5.1-r1[icedtea7]
+# required by dev-java/icedtea-bin-6.1.13.5[nsplugin]
+# required by @selected
+# required by @world (argument)
+=dev-java/icedtea-sound-1.0.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libodfgen-0.1.3 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=media-libs/glm-0.9.6.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libmwaw-0.3.4 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libabw-0.1.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=media-libs/libcdr-0.1.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libebook-0.1.2 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=media-libs/libvisio-0.1.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libetonyek-0.1.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=media-libs/libfreehand-0.1.0 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=dev-libs/liborcus-0.7.0 ~amd64
+# required by dev-libs/liborcus-0.7.0
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=dev-libs/libixion-0.7.0 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=dev-libs/librevenge-0.0.2 ~amd64
+# required by app-text/libwpg-0.3.0
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libwpd-0.10.0-r1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libwps-0.3.1 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libwpg-0.3.0 ~amd64
+# required by app-office/libreoffice-4.3.5.2
+# required by libreoffice (argument)
+=app-text/libmspub-0.1.2 ~amd64
+# required by typed-array (argument)
+=dev-ruby/typed-array-0.1.2-r1 ~amd64
+# required by ruby-hmac (argument)
+=dev-ruby/ruby-hmac-0.4.0-r1 ~amd64
+# required by net-misc/mikutter-0.2.1.1141
+# required by @selected
+# required by @world (argument)
+=dev-ruby/memoize-1.3.1-r1 ~amd64
+# required by gudev (argument)
+=dev-python/gudev-9999 **
+# required by opencl (argument)
+=dev-haskell/opencl-1.0.3.4 ~amd64
+# required by app-office/libreoffice-4.4.1.2
+# required by libreoffice (argument)
+=dev-cpp/libcmis-0.5.0 ~amd64
+# required by app-office/libreoffice-4.4.1.2
+# required by libreoffice (argument)
+=media-libs/libpagemaker-0.0.2 ~amd64
