@@ -1,0 +1,2 @@
+# to avoid cyclic dependencies
+media-libs/urt	-gif

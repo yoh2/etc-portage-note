@@ -1,0 +1,5 @@
+cross-armv6j-hardfloat-linux-gnueabi-addr2line/binutils -multilib
+cross-armv6j-hardfloat-linux-gnueabi-addr2line/gcc -multilib
+cross-armv6j-hardfloat-linux-gnueabi-addr2line/linux-headers -multilib
+cross-armv6j-hardfloat-linux-gnueabi-addr2line/glibc -multilib
+cross-armv6j-hardfloat-linux-gnueabi-addr2line/gdb -multilib

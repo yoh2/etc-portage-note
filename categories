@@ -1,7 +1,3 @@
-cross-mips-linux-uclibc
 cross-powerpc64-unknown-linux-gnu
-cross-mingw32
-cross-arm-linux-uclibc
-cross-arm-linux-newlib
-cross-i686-pc-linux-gnu
+cross-armv6j-hardfloat-linux-gnueabi-addr2line
 cross-armv6j-hardfloat-linux-gnueabi

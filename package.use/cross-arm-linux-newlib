@@ -1,3 +1,0 @@
-cross-arm-linux-newlib/binutils -selinux
-cross-arm-linux-newlib/newlib -selinux
-cross-arm-linux-newlib/gcc -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -fortran nocxx -openmp

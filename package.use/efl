@@ -1,3 +1,0 @@
-dev-libs/efl		-wayland -sdl  gles  egl -opengl
-media-libs/elementary	-sdl -wayland
-

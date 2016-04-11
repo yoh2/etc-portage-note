@@ -1,0 +1,2 @@
+# to avoid cyclic dependencies
+app-crypt/mit-krb5	-pkinit

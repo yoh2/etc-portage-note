@@ -1,4 +1,0 @@
-cross-arm-linux-uclibc/binutils objc objc++ -gtk -hardened mudflap -selinux
-cross-arm-linux-uclibc/linux-headers objc objc++ -gtk -hardened mudflap -selinux
-cross-arm-linux-uclibc/uclibc objc objc++ -gtk -hardened mudflap -selinux
-cross-arm-linux-uclibc/gcc objc objc++ -gtk -hardened mudflap -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc

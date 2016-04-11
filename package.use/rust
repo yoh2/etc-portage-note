@@ -1,2 +1,2 @@
-sys-devel/rust		system-llvm
-sys-devel/llvm		multitarget
+sys-devel/llvm	multitarget
+sys-devel/clang	multitarget

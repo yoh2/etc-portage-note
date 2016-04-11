@@ -1,0 +1,2 @@
+# build failes at including <gst/gstconfig.h>
+=media-libs/qt-gstreamer-1.2.0
