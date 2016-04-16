@@ -1,0 +1,7 @@
+media-gfx/exiv2			xmp
+media-libs/mesa			wayland
+net-misc/networkmanager		-nss gnutls
+kde-plasma/plasma-desktop	legacy-systray gtk2 -gtk3 -qt4
+dev-libs/libdbusmenu		gtk3
+dev-qt/qtgui			ibus libinput
+kde-apps/kio-extras		phonon
