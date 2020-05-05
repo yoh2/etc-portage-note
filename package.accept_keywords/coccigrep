@@ -1,0 +1,2 @@
+dev-util/coccigrep		~amd64
+=dev-util/coccinelle-1.0*	~amd64

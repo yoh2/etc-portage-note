@@ -1,4 +1,0 @@
-virtual/libudev		-static-libs
-virtual/libgudev	-static-libs
-dev-libs/libgudev	-static-libs
-dev-libs/libusb		-static-libs

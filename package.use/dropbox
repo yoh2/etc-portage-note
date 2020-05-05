@@ -1,0 +1,3 @@
+# dropbox [X] requires [-gles2] for some Qt5 packages
+net-misc/dropbox	-X
+net-misc/dropbox-cli	-X

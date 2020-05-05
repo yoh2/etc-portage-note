@@ -1,0 +1,5 @@
+media-libs/gst-plugins-base	-opengl
+media-libs/gst-plugins-bad	-opengl
+media-plugins/gst-plugins-meta	-opengl
+media-plugins/gst-plugins-gtk	-opengl
+media-plugins/gst-plugins-dts	-opengl

@@ -1,1 +1,4 @@
 app-office/libreoffice		-kde -mysql
+app-office/libreoffice-bin	-kde
+dev-libs/xmlsec			gcrypt
+net-misc/curl			http2 -nss

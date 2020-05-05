@@ -1,1 +1,2 @@
 dev-python/PyQt4	script declarative
+dev-qt/qtwebkit:4	-gstreamer

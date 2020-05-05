@@ -1,5 +1,0 @@
-=net-libs/nodejs-5*	~amd64
-#dev-libs/icu	 	~amd64
-dev-libs/libuv		~amd64
-net-libs/http-parser	~amd64
-

@@ -1,9 +1,0 @@
-kde-apps/konsole		~amd64
-kde-apps/kate			~amd64
-kde-apps/dolphin		~amd64
-kde-apps/dolphin-plugins	~amd64
-kde-apps/baloo-widgets		~amd64
-kde-apps/kio-extras		~amd64
-kde-misc/yakuake		~amd64
-kde-apps/gwenview:5		~amd64
-kde-apps/libkipi:5		~amd64

@@ -1,2 +1,2 @@
-media-video/avidemux			qt4 opengl
-media-libs/avidemux-plugins		opengl qt4
+media-video/avidemux			qt4
+media-libs/avidemux-plugins		qt4
